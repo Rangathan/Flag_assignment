@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+
+.countryCard{
+    background-color: wheat;
+    height: 250px;
+    border: 2px green;
+    border-radius: 30px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.flag {
+    width: 100%;
+    border-radius: 5%;
+}
+
